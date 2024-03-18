@@ -1,0 +1,20 @@
+baseURL = 'https://www.metesreau.com/'
+languageCode = 'fr-FR'
+defaultContentLanguage = 'fr'
+title = 'Some(Code)'
+theme = 'mini'
+
+[social]
+  github = 'https://github.com/mmetesreau'
+  twitter = 'https://twitter.com/mmetesreau'
+
+[params]
+  author = 'Mickael Metesreau'
+  bio = 'Software developer, *DD fan and F# addict'
+  description = 'Some(Code)'
+  enableRSS = true
+  enableComments = false
+  enableGoogleAnalytics = false
+  showPowerBy = false
+  enableAbout = false
+  customCSS = ['css/custom.css']

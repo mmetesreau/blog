@@ -1,0 +1,11 @@
+.DS_Store
+.hugo_build.lock
+.idea/
+.vscode/
+desktop.ini
+node_modules/
+package-lock.json
+public/
+resources/
+scripts.js
+thumbs.db
