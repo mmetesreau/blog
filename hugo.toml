@@ -10,7 +10,7 @@ theme = 'mini'
 
 [params]
   author = 'Mickael Metesreau'
-  bio = 'Software developer, *DD fan and F# addict'
+  bio = 'Software developer, *DD enthusiast and F# addict'
   description = 'Some(Code)'
   enableRSS = true
   enableComments = false
