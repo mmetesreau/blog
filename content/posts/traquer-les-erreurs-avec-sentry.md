@@ -45,7 +45,7 @@ static void Main(string[] args)
 
 Et voilà le travail : 
 
-![Image](/images/posts/traquer-les-erreurs-avec-sentry/image1--1-.PNG)
+![Image](/images/posts/traquer-les-erreurs-avec-sentry/image1.png)
 
 ### SentryAppender
 
@@ -107,6 +107,6 @@ Il ne reste qu'à configurer le tout :
 
 Peu de travail pour obtenir une si jolie timeline d'erreur :
 
-![Image](/images/posts/traquer-les-erreurs-avec-sentry/image2--1-.PNG)
+![Image](/images/posts/traquer-les-erreurs-avec-sentry/image2.png)
 
 Et rappelez vous, logger, c'est bon pour la santé !

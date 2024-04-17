@@ -86,7 +86,7 @@ end
 
 Pour tester, rien de plus simple, lançons juste la tâche avec ```rake build``` :
 
-![Image](/images/posts/albacore/Capture-3.PNG)
+![Image](/images/posts/albacore/capture-3.png)
 
 Passons maintenant à la restauration des packages nuget et au lancement des tests. Le principe est le même que pour la tâche build : nous allons directement réutiliser les tâches existantes ```nugets_restore``` et ```test_runner```.
 
@@ -140,6 +140,6 @@ task :default => [:restore, :build, :tests]
 
 Et voilà, nous sommes maintenant capables de contrôler notre chaîne de build à travers un DSL simple et interopérable.
 
-![Image](/images/posts/albacore/Capture-2.PNG)
+![Image](/images/posts/albacore/capture-2.png)
 
 N'hésitez pas à faire un tour sur leur [wiki](https://github.com/Albacore/albacore/wiki) pour plus d'information :)

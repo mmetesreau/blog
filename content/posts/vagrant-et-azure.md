@@ -14,7 +14,7 @@ Historiquement, Vagrant est un wrapper au dessus de VirtualBox. Cependant il ne 
 
 Voici à quoi ressemblerai une machine de développeur travaillant sur des stacks technologiques différentes :
 
-![Image](/images/posts/vagrant-et-azure/image5-1.PNG)
+![Image](/images/posts/vagrant-et-azure/image5-1.png)
 
 Ca semble sympa non ? Voyons comment l'utiliser avec [Windows Azure](http://azure.microsoft.com/fr-fr/).
 
@@ -105,17 +105,17 @@ $ ls
 $ vagrant up --provider=azure
 ```
 
-![Image](/images/posts/vagrant-et-azure/image1-2.PNG)
+![Image](/images/posts/vagrant-et-azure/image1-2.png)
 
 Une fois, la commande terminée, nous nous retrouvons avec une nouvelle VM tourant sur Windows Azure.
 
-![Image](/images/posts/vagrant-et-azure/image2-1.PNG)
+![Image](/images/posts/vagrant-et-azure/image2-1.png)
 
 Il est alors possible de se connecter directement à la machine en RDP avec **vagrant rdp** ou bien de la détruire avec **vagrant destroy**.
 
-![Image](/images/posts/vagrant-et-azure/image3-1.PNG)
+![Image](/images/posts/vagrant-et-azure/image3-1.png)
 
-![Image](/images/posts/vagrant-et-azure/image4-1.PNG)
+![Image](/images/posts/vagrant-et-azure/image4-1.png)
 
 ### Conclusion
 

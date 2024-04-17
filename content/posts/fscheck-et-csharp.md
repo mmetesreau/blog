@@ -74,7 +74,7 @@ public void Given_A_Number_Divisible_By_3_It_Must_Contain_Fizz()
 
 Et voilà, en deux lignes, nous avons écrit un test qui va essayer de trouver automatiquement une valeur contredisant une de nos spécifications.
 
-![Image](/images/posts/fscheck-et-csharp/Capture.PNG)
+![Image](/images/posts/fscheck-et-csharp/capture.png)
 
 Revenons un peu sur l'api de FsCheck :
 
@@ -100,6 +100,6 @@ public void Given_A_Number_Divisible_By_Divisor_It_Must_Contain_Expected(int div
 
 Nos tests passent ! Et nous sommes assurés de tester de manière plus complète notre implémentation grâce à FsCheck.
 
-![Image](/images/posts/fscheck-et-csharp/Capture1.PNG)
+![Image](/images/posts/fscheck-et-csharp/capture1.png)
 
 Bien entendu, pour plus d'informations, vous pouvez vous référer à la [documentation](https://fscheck.github.io/FsCheck/) :) 

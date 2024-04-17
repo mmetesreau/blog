@@ -189,7 +189,7 @@ Un peu long, mais on touche au but :). Vous avez peut être remarqué que le cod
 
 Voici un exemple de sortie obtenu avec le code précédant :
 
-![Image](/images/posts/edgejs/Capture.PNG)
+![Image](/images/posts/edgejs/capture.png)
 
 ## Mais pourquoi faire ?
 
@@ -203,4 +203,4 @@ De plus, vous avez peut être remarqué que l'écosystème .NET s'ouvre de plus 
 
 A titre d'exemple, voici le résultat d'un de mes POCs parsant la sortie d'[OpenCoverage](https://github.com/OpenCover/opencover) avec [ReportGenerator](https://github.com/danielpalme/ReportGenerator) et surlignant les chemins non couverts.
 
-![Image](/images/posts/edgejs/capture.GIF)
+![Image](/images/posts/edgejs/capture.gif)

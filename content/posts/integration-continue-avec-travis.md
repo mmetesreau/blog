@@ -57,7 +57,7 @@ deploy:
 
 Après avoir configuré votre dépôt sur Travis, chaque push va déclencher un build. 
 
-![Image](/images/posts/integration-continue-avec-travis/image1-1.PNG)
+![Image](/images/posts/integration-continue-avec-travis/image1-1.png)
 
 Il est quand même possible de restreindre le déclenchement à certaines branches :
 

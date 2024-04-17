@@ -27,7 +27,7 @@ IIS ne tournant pas sur Linux :p, nous allons utiliser un des composants du proj
 
 Créons une nouvelle application de type console :
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image1.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image1.png)
 
 Ajoutons les packages suivant avec NuGet :
 
@@ -91,7 +91,7 @@ public class HomeModule : NancyModule
 
 Lancez l'application en tant qu'administrateur et allez sur http://127.0.0.1:5000/status avec votre navigateur préféré.
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image2.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image2.png)
 
 ### Heroku
 
@@ -114,7 +114,7 @@ packages/
 
 Activons le restore package de NuGet :
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image3.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image3.png)
 
 Et maintenant, déployons le tout. Ouvrons une invite de commande :
 
@@ -137,7 +137,7 @@ $ heroku apps:create mickael-metesreau-kanban-board
 $ git remote -v
 ```
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image4.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image4.png)
 
 Les applications utilisant Mono n'étant pas prises en charge nativement par Heroku, il est nécessaire de spécifier comment construire notre application :
 
@@ -160,11 +160,11 @@ Déploiement :
 $ git push heroku master
 ```
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image5.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image5.png)
 
 Une fois la résolution des dépendances et le build fait, l'application est [disponible](http://mickael-metesreau-kanban-board.herokuapp.com/status) sur heroku :)
 
-![Image](/images/posts/heroku-angularjs-nancyfx-p1/image6.PNG)
+![Image](/images/posts/heroku-angularjs-nancyfx-p1/image6.png)
 
 ### Conclusion
 
