@@ -17,4 +17,3 @@ theme = 'mini'
   enableGoogleAnalytics = false
   showPowerBy = false
   enableAbout = false
-  customCSS = ['css/custom.css']
